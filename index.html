@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/sections.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+    <title>My Name | Frontend Developer</title>
+  </head>
+  <body>
+    <header class="center">
+      <div class="logo center">
+        <a href="">
+          <img src="/img/logo.jpg" alt="" />
+        </a>
+      </div>
+      <nav>
+        <input type="checkbox" id="nav-check" />
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        <div class="nav-link center">
+          <a href="#">About me</a>
+          <a href="#">Projects</a>
+          <a href="#">Expecience</a>
+          <a href="#">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="about-section">
+      <div class="img-container center">
+        <img id="about-img" src="/img/logo-png.png" alt="" />
+      </div>
+
+      <div class="description-container center">
+        <div class="center" style="flex-direction: column">
+          <h1>Backend Developer</h1>
+          <h2>Anthony Looney</h2>
+        </div>
+
+        <p>
+          Software development professional with experience in developing and
+          designing web applications using HTML, CSS, JavaScript, Python, and
+          React and offering skills in SQL. Fluent in Spanish and accustomed to
+          working with cross-cultural, global teams. A hardworking and
+          passionate job seeker with strong organizational skills eager and
+          ready to help team achieve company goals.
+        </p>
+
+        <div class="skills-list center">
+          <h2>Skills</h2>
+
+          <div class="skills center">
+            <label> CSS </label>
+            <label> HTML </label>
+            <label> JavaScript </label>
+            <label> React </label>
+            <label> SQL </label>
+            <label> Python </label>
+            <label> Linux </label>
+            <label> Django </label>
+            <label> C# </label>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects-section center">
+      <h2>Projects</h2>
+
+      <div id="projects-list"></div>
+    </section>
+
+    <section class="experience-section center">
+      <h2>Experience/Education</h2>
+
+      <div id="experiences-list"></div>
+    </section>
+
+    <footer class="center">
+      <h2>Anthony Looney</h2>
+
+      <div class="logo center">
+        <nav class="center">
+          <a href="#">About me</a>
+          <a href="#">Projects</a>
+          <a href="#">Experience</a>
+          <a href="#">Contacts</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>
